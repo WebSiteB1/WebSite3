@@ -8,6 +8,65 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+	  
+	  
+	  <style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	  
+	  
+	  
+	  
     <title>INSTRUMENTACIÓN ELECTRONÍCA</title>
 
     <!-- Bootstrap core CSS -->
@@ -28,30 +87,41 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Datos técnicos</a>
-		  <ul> 
-		        <li> <a class="nav-link" herf="#">Sensores</a> </li>
-			<li> <a class="nav-link" herf="#">Sistemas Mecánicos</a></li>
-			<li><a class="nav-link" href="#">Test</a></li>
-			<li> <a class="nav-link" herf="#">Sistemas Embebidos</a> </li>
-		  </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://websiteb1.github.io/streaming2/">Vivo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recursos y enlaces</a>
-              <li class="nav-item">
-              <a class="nav-link" href="https://instrumentacion201.wixsite.com/misitio">Blog</a>
-            </li>
-          </ul>
+          
+		
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+							<ul>
+								<li><a href="">Submenu1</a></li>
+								<li><a href="">Submenu2</a></li>
+								<li><a href="">Submenu3</a></li>
+								<li><a href="">Submenu4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		
+		</div>
+		
+		
+		
         </div>
       </div>
     </nav>
