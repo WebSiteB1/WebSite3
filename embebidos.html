@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 
   <head> 
@@ -92,7 +92,8 @@
 		
 		<div id="header">
 			<ul class="nav">
-				<li><a href=""index.html"">Inicio</a></li>
+				<li><a href="index.html">Inicio</a></li>
+
 				<li><a href="">Datos Técnicos</a>
 					<ul>
 						<li><a href="sensores.html">Sensores</a></li>
@@ -102,7 +103,7 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="LIVE.html">LIVE</a>
+				<li><a href="live.php">LIVE</a>
 				</li>
 				<li><a href="https://instrumentacion201.wixsite.com/misitio">Blog</a></li>
 			</ul>
@@ -127,57 +128,135 @@
         <div class="row align-items-center">
           <div class="col-md-6 order-2">
             <div class="p-5">
-              <img class="img-fluid rounded-circle" src="https://a.pololu-files.com/picture/0J4032.1200.jpg?c6047c9edb7ba2abe9c4f913e7712a71" alt="IMU (Inertial Measurement Unit) ">
+              <img class="img-fluid rounded-circle" src="pictures/imu.jpg" alt="IMU">
             </div>
           </div>
           <div class="col-md-6 order-1">
             <div class="p-5">
-              <h2 class="display-4">IMU (Inertial Measurement Unit) </h2>
-              <p> la IMU integran combinaciones multiaxiales de giroscopios de precisión, acelerómetros, magnetómetros y sensores de presión,
-		  fusionados de manera inteligente para proporcionar una posición confiable y el discernimiento de movimiento para aplicaciones de estabilización y navegación.
-		  Para el sudmarino se utilizara la IMU ref:imu01c 0J8003 (MinIMU-9 v3) </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-	  
- <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-             <img class="img-fluid rounded-circle" src="pictures/raspberry.JPG" alt="RASPBERRY PI 3">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4"> RASPBERRY PI 3</h2>
-              <p> Raspberry Pi es un computador de placa reducida, computador de placa única o computador de placa simple (SBC) de bajo costo desarrollado en Reino Unido por la Fundación Raspberry Pi, con el objetivo de estimular la enseñanza de ciencias de la computación en las escuelas</p>
-             <ul type=disk>
-		    <li> Especificaciones:
-		    <ol>
-			    <li>1. Referencia:Raspberry pi 3 modelo B </li>
-			    <li>2. CPU:1.2 GHz-64-bit QUAD-CORE ARMV8 </li>
-			    <li>3. Memoria (SDRAM): 1 GB</li>
-			    <li>4. Puertos USB 2.0: 4 </li>
-			    <li>5. Entradas de video: Conector MIPI CS Que permite instalar un modulo de cámara desarrollado por la RPF</li>
-			    <li>6. Salidas de video: Conector RCA (PAL Y NTSC) HDMI interfaz DSI para panel LCD </li>
-			    <li>7. Salida de audio: Conector de 3.5 mm, HDMI</li>
-			    <li>8. Almacenamiento integrado: micro SD </li>
-			    <li>9. Consumo energético: 800 mA (4.0 W) </li>
-			    <li>10. Fuente de alimentacion: 5 V via micro USB o GPIO header </li>
-			    <li>11. Dimensiones: 85.6 mm x 53.98 mm </li>
+              <h2 class="display-4">Unidad de medida inercia</h2>
+              
+			  <ul type=disk>
+              <li> <b>Especificaciones:</b> 
+		    	<ol>
+			    	<li><b>1.</b> Referencia: AltIMU-10 Gyro</li>
+			    	<li><b>2.</b> Tensión de trabajo: DC 2.5-5.5V</li>
+			    	<li><b>3.</b> Corriente de funcionamiento: < 10mA </li>
+			    	<li><b>4.</b> Rango de medicion(barómetro): 26 kPa a 126 kPa </li>
+			    	<li><b>5.</b> Rango de medicion(magnetómetro): ± 1.3, ± 1.9, ± 2.5, ± 4.0, ± 4.7, ± 5.6, o ± 8.1 gauss</li>
+			    	<li><b>6.</b> Rango de medicion(acelerómetro): ± 2, ± 4, ± 8 o ± 16 g</li>
+			    	<li><b>7.</b> Rango de medicion(giro): ± 250, ± 500 o ± 2000 ° / s</li>
+			    	<li><b>8.</b> Interfaz: I2C</li>
+			    	
 			    
-	           </ol
+	           </ol>
 		      </li>
-		     <p>Compra : <b> https://www.ardobot.com/raspberry-pi-3-model-b-a1-2ghz-64-bit-quad-core-armv8-cpu-1gb-ram.html </b></p>
-		</div>
+		    
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+<section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="pictures/raspberry.png" alt="raspberry">
+            </div>
+          </div>
+          	<div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">Raspberry Pi</h2>
+              <ul type=disk>
+		    <li> <b>Especificaciones:</b> 
+		    <ol>
+			    <li>1. Referencia: Raspberry Pi 3 Modelo B</li>
+			    <li>2. CPU: 1.2GHz 64-bit quad-core ARMv8</li>
+			    <li>3. Memoria (SDRAM): 1 GB (compartidos con la GPU) </li>
+			    <li>4. Puertos USB 2.0: 4</li>
+			    <li>5. Entradas de vídeo: Conector MIPI CSI que permite instalar un módulo de cámara desarrollado por la RPF</li>
+			    <li>6. Fuente de alimentación: 5 V vía Micro USB o GPIO header</li>
+			    <li>7. Dimensiones: 85.60mm × 53.98mm</li>
+			    <li>8. Conectividad de red: 10/100 Ethernet (RJ-45) vía hub USB</li>
+			    <li>9. Consumo energético: 800 mA, (4.0 W)</li>
+			    <li>10. Juego de instrucciones:	RISC de 32 bits</li>
+			    <li>11. GPU: Broadcom VideoCore IV, 1080p30 H.264/MPEG-4 AVC</li>
+			    <li>12. Periféricos de bajo nivel: 17 x GPIO y un bus HAT ID</li>
+			    <li>13. Reloj en tiempo real: Ninguno</li>
+			    
+	           </ol>
+		      </li>
+			
+		    
+         	</div>
+          	</div>
+       	</div>
+   	</div>
+</section>  
+
+<section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="pictures/arduino.jpg" alt="Arduino">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">Arduino</h2>
+             
+			  <ul type=disk>
+              <li> <b>Especificaciones:</b> 
+		    	<ol>
+			    	<li><b>1.</b> Referencia: Arduino UNO R3</li>
+			    	<li><b>2.</b> Tensión de trabajo: DC 7-12V</li>
+			    	<li><b>3.</b> 14 pines digitales de I/O (6 salidas PWM). </li>
+			    	<li><b>4.</b> 6 entradas análogas. </li>
+			    	<li><b>5.</b> 32k de memoria Flash.</li>
+			    	<li><b>6.</b> Reloj de 16MHz de velocidad.</li>		    	
+			    
+	           </ol>
+		      </li>
+		    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="pictures/Raspeberry-camera.png" alt="Arduino">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">Camara raspeberry </h2>
+             
+			  <ul type=disk>
+              <li> <b>Especificaciones:</b> 
+		    	<ol>
+			    	<li><b>1.</b> Sensor : 5MPx</li>
+			    	<li><b>2.</b> Ancho de imagen: 2592x1944</li>
+			    	<li><b>3.</b> Video: 1080p 30 fps </li>
+			    	<li><b>4.</b> Tamaño: 25 x 20 x 9 mm </li>
+	    	
+			    
+	           </ol>
+		      </li>
+		    <p></p>
+		    <p>Guia de uso: <a href="https://www.raspberrypi.org/app/uploads/2013/07/RaspiCam-Documentation.pdf">aquí</a>		    	    
+		    </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
